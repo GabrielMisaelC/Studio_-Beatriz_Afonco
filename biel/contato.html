@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+      <meta name="description" content="site Teste">
+    <meta name="keywords" content="carinhoso,irlandes,jacú,etc...">
+    <meta name="author" content="Eu">
+    <link rel="stylesheet" href="css/stilo.css">
+     </head>
+     <style>
+
+    /*zerando imagens */
+*{margin:0;padding: 0}
+/*configurando a estrutura*/
+#estrutura{background-color: #fff;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            }
+/*configurando o paragrafo*/
+p{font-family: 'Times New Roman';
+    font-size: 12pt;
+    line-height: 25px;
+    text-indent: 15px;
+}
+/*configurando a estrutura do site*/
+#estrutura #titulo{
+    background-position: -100px -100px;
+    color: #55546f;
+    font-family: arial;
+    font-size: 25pt;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 150px;
+    text-align: center;
+}
+#estrutura h1{margin-top: 80px;font-family: arial; font-size: 30pt;}
+/* preparando menu */
+
+/* configurando o conteudo */
+         #estrutura #conteudo h2{font-family: arial;font-size: 40pt;padding-top:  90px;}
+
+#estrtura #rodape{color: #fff;height: 80px;bottom: 0px;
+                    width: 100%;text-align: center;
+                    margin-left: auto;margin-right: auto;background-color: darkred;}
+/* criando classe para ajustar imagem */
+#estrutura #conteudo .imghome img{
+    width: 300px;height: 250px;margin: 10px;
+}
+#estrutura #conteudo .imghome{text-align: center;}
+#estrutura #titulo {background-color:   #00116d}
+
+ /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------- menu --------------------------------------------------------------------------------------------------------------------------------*/        
+         #estrutura #menu {width: 100%; height: auto; background-color: bisque} 
+         #estrutura #menu a.atual{background-color: #340804;}
+         .texto {width: auto; height: auto; float: center;}
+         
+         #estrutura #menu ul{padding: 10px 10px;}
+         
+         #estrutura #menu{width: 100px;height: auto}
+
+         
+         #estrutura #menu li{list-style: none;
+                    display: inline-block;
+                    width: 300px;
+                    text-align: center;
+                    padding-top: 1px;
+                    }
+
+         
+         #estrutura #menu a{font-family: arial;
+                font-size: 10pt;
+                text-decoration: none;
+                color: #ffffff;
+                background-color:darkred;
+                width: 100%;
+                display: inline-block;
+                    padding: 14px 20px;}
+
+         
+         #estrutura #menu a:hover{background-color: #0800;color: darkred;}         
+         
+         
+         .boxbob{background-color: #fff; width: 500px; height: 372px;}
+         .boxbob img{width: 500px; height: 372px;}
+         
+         #estrutura #menu t{float: right}
+         
+         .boxx {width: auto; height: auto; float: left}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------- Titulo --------------------------------------------------------------------------------------------------------------------------------*/
+         .boxlogo{background-color: #fff;
+    width: 100px;height: 100px;
+    margin: 5px 0px 0px 5px;
+float: left;}
+.boxlogo img{width: 100px;height: 100px;}
+         /* .boxlogo img{float: left;padding: 0px; margin: auto} */
+         
+         #estrutura #titulo{background-color: #fff;
+         width: auto;height: 150px;}
+         
+         #estrutura #titulo #boxlogo{float: left; padding-top: 25px; padding-left: 15px;}
+         
+         #estrutura #titulo #texto{float: center; padding-top: 50px; padding-right: 15px;}
+         
+    
+       /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------- conteudo --------------------------------------------------------------------------------------------------------------------------------*/
+         .main {padding-top: 100px}
+          /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------- rodape --------------------------------------------------------------------------------------------------------------------------------*/
+         #estrutura #rodape {color: #fff;height: 80px;bottom: 0px;
+                    width: 100%;text-align: center;
+             margin-left: auto;margin-right: auto;background-color: darkred;}  
+         
+    </style>
+<body>
+   <div id="estrutura">
+       <div id="titulo">
+        <div id="boxlogo" class="boxlogo">
+            <img src="logo/hurley.png" alt="">
+        </div>
+             
+        <div id="texto">
+            Hurley
+        </div> 
+       </div>
+       
+       <div id="menu1">   
+           <div id="menu" class="boxx">
+                <ul>
+                <li><a href="index.html"class="atual">Home</a></li>
+                <li><a href="Camisas.html" class="atual">Camisas</a></li>
+                <li><a href="bone.html"class="atual">Boné</a></li>
+                <li><a href="skte.html"class="atual">skate</a></li>
+                <li><a href="contato.html"class="atual">Contato</a></li>
+            </ul>
+           </div>
+           
+       </div>
+       
+       <div id="conteudo">
+           <center>
+               <font size="10" color="green"> <h2>CONTATO</h2> </font>
+           </center>
+        <div id="main" class="main">
+        <div class="slides">
+           <div>
+            <label for="nome">NOME: <input type="text" name="nome" placeholder="Digite seu nome:"></label>
+            <br>
+            <label for="sobrenome">Sobrenome: <input type="text" name="sobrenome" placeholder="Digite seu sobrenome:"></label>
+            <label for="email">E-MAIL: <input type="email" name="email" placeholder="Digite seu email:"></label>
+            </div>
+            <img src="img/game2.jpg" alt="">
+            <img src="img/game3.jpg" alt="">
+        </div>
+    </div>
+       </div>
+       <br>
+       <div id="rodape">
+        Av. Corifeu de Azevedo Marques - Vila Lageado<br>
+         São Paulo - SP, 05339-005<br>
+       </div>
+   </div>
+   <!-- Linha de Script -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <!-- Linha de Jquey -->
+        <script>
+        $(function(){
+            $(".slides").slidesjs({
+                
+            });
+            
+        });
+    </script>
+    
+</body>
+</html>

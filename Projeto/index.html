@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/home.css" media="screen" />
+    <title>Beatriz Studio Academy</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js">
+    </script>
+    
+    <script src="js/jquery.slides.js"></script>
+<!--linha de jquery-->
+<script>
+    $(function(){
+        $(".slides").slidesjs({
+play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 500,
+        // [number] Time spent on each slide in milliseconds.
+      auto: false,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 250
+        // [number] restart delay on inactive slideshow
+    }
+  
+            
+        });
+    });  
+    </script>   
+   
+</head>
+<body>
+    <div id="body">
+        <div id="top">
+            <div id="items">
+                <div id="logo">
+          
+                </div>
+                <div id="container"><a href="index.html">Home</a></div>
+                
+                <div id="container"><a href="about.html">About</a></div>
+                
+                <div id="container"><a href="services.html">Services</a></div>
+
+                <div id="container"><a href="contact.html">Contact</a></div>
+
+                <div id="container"><a href="login.html"><button style="border: 5px solid #000000; height: 70px; width: 100px; background-color: rgb(255, 255, 255);">Login</button></a></div>
+
+            </div>
+        </div>
+        <div id="center">
+        </div>
+        <div id="baseboard">
+            <div id="centralizar">
+            <div id="icons"><a href=""><img src="icons/facebook.png" alt=""></a></div>
+            <div id="icons"><a href=""><img src="icons/instagram.png" alt=""></a></div>
+            <div id="icons"><a href=""><img src="icons/whatsapp.png" alt=""></a></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="fim">
+                Copyright © 2022 Beatriz Studio Academy | Powered by Misael Software
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+#center {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;  
+  }
+  
+  @keyframes example {
+    0%   {left:200px; top:200px;}
+    100%  {left:0px; top:0px;}
+  }
+
+  #post {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;  
+    display: flex;
+  }
+
+  #post1 {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;  
+    display: flex;
+  }
+  #post #esquerda{
+    margin-top: 25px;
+    width: 40%;
+  }
+
+  #post #direita{
+    margin-top: 25px;
+    width: 60%;
+  }
+  #post1 #esquerda{
+    margin-top: 25px;
+    width: 60%;
+  }
+
+  #post1 #direita{
+    margin-top: 25px;
+    width: 40%;
+  }
